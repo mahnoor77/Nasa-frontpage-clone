@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #f64137;
+    
    
     
     
@@ -77,7 +77,9 @@ border-color:#2e2e32;
   display: block;
 }
 
-.active,.dropdown a:hover {
+
+
+.active,.dropdown-content a:hover,a:focus {
   text-decoration: underline;
   text-decoration-color: white;
    text-decoration-style:dotted;
